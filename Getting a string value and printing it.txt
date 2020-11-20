@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void main(){
+
+    char a[60];
+    printf("Type your name:");
+    gets (a);
+
+    printf("%s", a);
+
+    
+    return 0;
+
+
+}

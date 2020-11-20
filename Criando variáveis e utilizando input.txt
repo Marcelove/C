@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    int BANANA, KIWI;
+    BANANA = 0;
+    KIWI = 0;
+
+    printf("Digite o valor de BANANA:");
+    scanf("%d", &BANANA);
+    
+    printf("Digite o valor de KIWI:");
+    scanf("%d", &KIWI);
+   
+    printf("OS valores são: %d, %d", BANANA, KIWI);
+    
+    
+
+
+
+return 0;
+}
